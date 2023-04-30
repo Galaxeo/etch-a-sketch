@@ -1,5 +1,12 @@
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px;
+}
+.gridSquare {
+  border: 1px solid black;
+  height: 20vw;
+  width: 20vw;
 }
